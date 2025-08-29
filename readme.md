@@ -3,20 +3,18 @@
 </p>
 
 <p align="center">
-    <h3 align="center">Uzinfocom's Infrastructure configurations for all instances.</h3>
+    <h3 align="center">Just a food picker out of desperation.</h3>
 </p>
 
 <p align="center">
-    <img align="center" src="https://img.shields.io/github/languages/top/uzinfocom-org/instances?style=flat&logo=nixos&logoColor=ffffff&labelColor=242424&color=242424" alt="Top Used Language">
-    <a href="https://github.com/uzinfocom-org/instances/actions/workflows/test.yml"><img align="center" src="https://img.shields.io/github/actions/workflow/status/uzinfocom-org/instances/test.yml?style=flat&logo=github&logoColor=ffffff&labelColor=242424&color=242424" alt="Test CI"></a>
+    <img align="center" src="https://img.shields.io/github/languages/top/uzinfocom-org/itamisu?style=flat&logo=rust&logoColor=ffffff&labelColor=242424&color=242424" alt="Top Used Language">
+    <a href="https://github.com/uzinfocom-org/itamisu/actions/workflows/test.yml"><img align="center" src="https://img.shields.io/github/actions/workflow/status/uzinfocom-org/itamisu/test.yml?style=flat&logo=github&logoColor=ffffff&labelColor=242424&color=242424" alt="Test CI"></a>
 </p>
 
-# Rust Nix Template
+# About
 
-This is a starter pack for Nix friendly Rust project ecosystem provided to you by [Bleur Stack] developers.
-The project uses rust toolchain derived from nixpkgs to fetch necessary tools and then compile your binary.
-
-> Please, after bootstrapping, rename / change all `example` or `template` keywords in template files.
+Sometimes, we just don't know whether what we would like to eat for lunch. So, we build a random food picker
+that will choose one for us.
 
 ## Development
 
@@ -68,7 +66,7 @@ Or, you can build your project via nix which will do all the dirty work for you.
 nix build
 
 # Executable binary is available at:
-./result/bin/template
+./result/bin/itamisu
 ```
 
 ## FAQ
