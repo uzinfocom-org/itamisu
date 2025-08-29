@@ -81,7 +81,7 @@ both shell.nix and default.nix to don't mix things up.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](license) file for details.
+This project is licensed under the Apache-2.0 License - see the [LICENSE](license) file for details.
 
 <p align="center">
     <img src=".github/assets/footer.png" alt="Uzinfocom's {Itamisu}">

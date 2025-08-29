@@ -79,7 +79,7 @@ in
 
     meta = with lib; {
       # https://github.com/NixOS/nixpkgs/blob/master/lib/licenses.nix
-      license = with lib.licenses; [asl20 mit];
+      license = with lib.licenses; [asl20];
       platforms = with platforms; linux ++ darwin;
       maintainers = [lib.maintainers.orzklv];
       inherit (manifest) description homepage;
