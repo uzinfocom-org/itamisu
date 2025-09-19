@@ -1,11 +1,67 @@
 [[option]]
+name = "To'y Osh"
+shop = "Kamolon"
+
+[[option]]
 name = "Choyxona Osh"
 shop = "Kamolon"
 
 [[option]]
-name = "Sandres burger"
+name = "Sander's Burger"
 shop = "KFC"
 
 [[option]]
-name = "Pshenichniy lapsha"
+name = "Burger Deluxe"
+shop = "KFC"
+
+[[option]]
+name = "Friend's Box"
+shop = "KFC"
+
+[[option]]
+name = "Pshenichniy Lapsha"
 shop = "WOK"
+
+[[option]]
+name = "Gay Lapsha"
+shop = "WOK"
+
+[[option]]
+name = "Pitsa"
+shop = "Domino Pizza"
+
+[[option]]
+name = "Chitir Burger"
+shop = "CTR Burger"
+
+[[option]]
+name = "Bishteks"
+shop = "Akhmad's Choice"
+
+[[option]]
+name = "Negr Burger"
+shop = "Black Star Burger"
+
+[[option]]
+name = "Wendy's Burger"
+shop = "Wendy's"
+
+[[option]]
+name = "Embassy Burger"
+shop = "Embassy"
+
+[[option]]
+name = "Steak"
+shop = "GO'SHT"
+
+[[option]]
+name = "Sushi"
+shop = "Yapona Mama"
+
+[[option]]
+name = "Ramen"
+shop = "Yapona Mama"
+
+[[option]]
+name = "Cheese & Beer"
+shop = "Bar"
