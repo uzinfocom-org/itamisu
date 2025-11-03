@@ -13,10 +13,11 @@
   };
 
   outputs = {
+    self,
     nixpkgs,
     flake-utils,
     ...
-  }:
+  }@inputs:
     flake-utils.lib.eachDefaultSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
     in {
@@ -28,5 +29,7 @@
 
       # Output package
       packages.default = pkgs.callPackage ./. {inherit pkgs;};
+
+      hydraJobs = inputs.self.packages.x86_64-linux;
     });
 }
